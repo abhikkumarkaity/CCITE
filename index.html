@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CCITE Infotech</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/utilities.css" />
+    <link rel="stylesheet" href="styles/benefits.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <!-- <link rel="stylesheet" href="styles/header.css"> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="absolute top-0 left-0 w-full flex justify-center items-center py-6 z-20">
+        <h1 class="text-2xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 text-transparent bg-clip-text animate-pulse">
+          CCITE Infotech
+        </h1>
+      </header>
+
+    <!-- Hero -->
+    <section class="hero text-center pt-32 pb-20 px-6" id="hero">
+        <div class="container">
+          <h2 class="hero-title mb-4">
+            Helping You Build Scalable Apps, Web, Cloud Solutions & Skilled Professionals for Success.
+          </h2>
+          <p class="hero-subtitle mb-6">
+            We transform your ideas into digital products with unmatched speed and quality.
+          </p>
+      
+          <!-- CTA Buttons -->
+          <div class="hero-buttons">
+            
+            <button class="gradient-button glowable" data-book-call>Book a Call</button>
+          </div>
+        </div>
+      </section>
+
+    <!-- What You Get -->
+    <section id = "benefits" class="section-benefits">
+      <div class="container">
+        <h2>What You Get</h2>
+        <p class="section-subtext">
+          Unlock your business's true potential with CCITE Infotech, the innovative software company located in the heart of West Bengal...
+        </p>
+        <div class="features-grid">
+          <div class="feature">
+            <h3>End-to-End App Development</h3>
+            <p>From wireframes to scalable deployments – we do it all.</p>
+          </div>
+          <div class="feature">
+            <h3>Modern Tech Stack</h3>
+            <p>Latest frontend, backend & DevOps tech for scalable systems.</p>
+          </div>
+          <div class="feature">
+            <h3>Cloud Solutions</h3>
+            <p>Deploy, scale and manage with AWS, Azure & GCP.</p>
+          </div>
+          <div class="feature">
+            <h3>Skilled Team</h3>
+            <p>Experts in UI/UX, DevOps, Development & Product Strategy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Showcase -->
+    <section id="previous-work" class="section-previous-work">
+        <div class="container">
+          <h2>Previous Work</h2>
+          <p class="section-subtext">Take a look at some of our recent projects!</p>
+      
+          <div class="projects-grid">
+            <!-- Project cards -->
+            <div class="project-card">Project 1</div>
+            <div class="project-card">Project 2</div>
+            <div class="project-card">Project 3</div>
+      
+            <!-- Hidden projects -->
+            <div class="project-card hidden-project">Project 4</div>
+            <div class="project-card hidden-project">Project 5</div>
+            <div class="project-card hidden-project">Project 6</div>
+            <div class="project-card hidden-project">Project 7</div>
+          </div>
+      
+          <button id="toggleProjectsBtn" class="toggle-btn">Show More ↓</button>
+        </div>
+      </section>
+      
+
+    <!-- Pricing -->
+    
+    <section id="pricing" class="section-pricing container text-center">
+        <div class="mb-12">
+          <h2 class="section-title gradient-text">Ready to Ignite Your Idea?</h2>
+          <p class="section-subtitle">
+            Choose the perfect package for your project and get started today
+          </p>
+        </div>
+      
+        <div class="pricing-intro mb-10">
+            <div class="services-cards">
+                <div class="service-card">
+                  <h3>✅ App Development</h3>
+                  <p>Powerful, intuitive mobile and desktop apps.</p>
+                </div>
+                <div class="service-card">
+                  <h3>✅ Web Development</h3>
+                  <p>Modern, high-performance websites and platforms.</p>
+                </div>
+                <div class="service-card">
+                  <h3>✅ Cloud Development</h3>
+                  <p>Secure, scalable cloud solutions.</p>
+                </div>
+              </div>
+        </div>
+      
+        <div class="pricing-grid">
+          <!-- MVP Development Package -->
+          <div class="card popular">
+            <div class="badge">Most Popular</div>
+            <div class="tag">One Time</div>
+            <h3 class="card-title">MVP Development Package</h3>
+            <p class="card-price">₹49,999 <span class="note">Starting at</span></p>
+            <p class="card-note">Limited slots available — book early!</p>
+      
+            <ul class="card-list">
+              <li>✅ Complete MVP in 4-5 weeks</li>
+              <li>✅ Web application or Mobile App</li>
+              <li>✅ Scalable backend + cloud setup</li>
+              <li>✅ Payment & Auth integration</li>
+              <li>✅ Founder-led execution & strategy</li>
+              <li>✅ Weekly updates with full transparency</li>
+            </ul>
+      
+            <a href="#hero" class="btn-glow mt-6 glowable">Choose Plan</a>
+          </div>
+      
+          <!-- Growth Retainer Package -->
+          <div class="card dark">
+            <div class="badge alt">Ongoing Support</div>
+            <div class="tag dark">Monthly Retainer</div>
+            <h3 class="card-title text-white">Growth Retainer Package</h3>
+            <p class="card-price text-white">₹19,999<span class="note">/month</span></p>
+      
+            <ul class="card-list text-white">
+              <li>✅ Monthly Dev & Design hours</li>
+              <li>✅ Weekly strategy calls</li>
+              <li>✅ Priority feature rollouts</li>
+              <li>✅ Continuous optimizations</li>
+              <li>✅ Emergency issue resolution</li>
+              <li>✅ Scale-focused planning support</li>
+            </ul>
+      
+            <a href="#hero" class="btn-outline mt-6 glowable">Schedule a Call →</a>
+          </div>
+        </div>
+      </section>
+      
+   
+      
+    <!-- Modal -->
+    <div id="formModal" class="modal-overlay">
+          <div class="modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLScFebZwAd96tW1q03zoEAnoGanLj3Yj98_EtBCRuKt2QKGxvw/viewform?embedded=true" width="640" height="554" frameborder="0" marginheight="0" marginwidth="0">
+              width="100%"
+              height="600"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              loading="lazy"
+            >Loading…</iframe>
+          </div>
+    </div>
+     
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 CCITE Infotech. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- show more work project-->
+    <script>
+    const toggleBtn = document.getElementById("toggleProjectsBtn");
+    const hiddenProjects = document.querySelectorAll(".hidden-project");
+    let expanded = false;
+
+    toggleBtn.addEventListener("click", () => {
+        hiddenProjects.forEach(project => {
+        project.style.display = expanded ? "none" : "block";
+        });
+
+        toggleBtn.textContent = expanded ? "Show More ↓" : "Show Less ↑";
+        expanded = !expanded;
+    });
+    </script>
+
+
+    <!-- book a call-->
+    <script>
+    const modal = document.getElementById("formModal");
+    const overlay = document.getElementById("modalOverlay");
+    const closeBtn = document.getElementById("closeModal");
+
+    function openModalWithGlow() {
+    modal.style.display = "block";
+    overlay.style.display = "block";
+    }
+
+    function closeModal() {
+    modal.style.display = "none";
+    overlay.style.display = "none";
+    }
+
+    document.querySelectorAll('[data-book-call]').forEach(button => {
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        openModalWithGlow();
+    });
+    });
+
+    closeBtn.addEventListener("click", closeModal);
+    overlay.addEventListener("click", closeModal);
+    </script>
+  </body>
+</html>
